@@ -1,0 +1,51 @@
+.progress-page {
+    background: linear-gradient(to bottom right, #143e6b, #00eeff);
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+}
+
+.progress-bar-container {
+    background-color: #f7f7f7;
+    width: 50vh;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#t3{
+    padding: 0px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 30px;
+}
+p{
+    margin: 10px;
+}
+.progress-bar {
+   
+    margin: 0px;
+    background-color: #000307;
+    height: 100%;
+    color: #fff;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Additional styling for a smooth gradient transition */
+.progress-bar-container {
+
+    background-color: #ffffff;
+}
+
+.progress-bar {
+    background: linear-gradient(to right, #000306, #000000);
+}

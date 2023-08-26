@@ -1,0 +1,110 @@
+/* HomePage.css */
+
+.homepage {
+    background: linear-gradient(to bottom right, #143e6b, #00eeff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+h1 {
+    margin-top: 300px;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.task-list-container {
+    margin-top: 40px;
+    text-align: left;
+    /* Move text-align here to apply to the entire container */
+}
+
+.task-list-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.task-list-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.task-list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.task-list-container li a {
+    text-decoration: none;
+    /* Remove the underline from links inside list items */
+    color: inherit;
+    /* Use the default color (black) for links */
+}
+/* ... (other styles) */
+
+.task-list-container li a,
+.task-list-container li a:visited,
+.task-list-container li a:focus {
+    text-decoration: none;
+    /* Remove the underline and color effect on link press and in active state */
+    color: #000000;
+}
+
+/* ... (other styles) */
+.task-list-container button {
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    height: 40px;
+    margin-left: 50px;
+    border: 1px solid #ffffff;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.add-task-button {
+    width: 240px;
+    margin-top: 600px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #fdfdfd;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-modol-form {
+    width: 50%;
+}
