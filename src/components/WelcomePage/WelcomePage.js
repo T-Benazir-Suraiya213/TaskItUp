@@ -12,9 +12,7 @@ const WelcomePage = () => {
         <p id="t2">Manage your tasks efficiently with our app.</p>
         <div className="buttons-container">
           <Link to="/login" className="login-btn">Login</Link>
-           <Link to="/signup" className="signup-btn">
-          Sign Up
-        </Link>
+           <Link to="/signup" className="signup-btn">Sign Up </Link>
         </div>
       </div>
     </div>
